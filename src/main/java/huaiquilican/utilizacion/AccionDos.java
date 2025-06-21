@@ -6,7 +6,7 @@ import huaiquilican.framework.Accion;
 public class AccionDos implements Accion {
     @Override
     public void ejecutar() {
-        System.out.println("Ejecutando AccionDos...");
+        System.out.println("Ejecutando Accion Dos...");
     }
 
     @Override

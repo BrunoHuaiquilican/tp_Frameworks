@@ -6,7 +6,7 @@ import huaiquilican.framework.Accion;
 public class AccionUno implements Accion {
     @Override
     public void ejecutar() {
-        System.out.println("Ejecutando AccionUno...");
+        System.out.println("Ejecutando Accion Uno...");
     }
 
     @Override
@@ -16,6 +16,6 @@ public class AccionUno implements Accion {
 
     @Override
     public String descripcionItemMenu() {
-        return "Esto es para traer los twitts de José...";
+        return "Esto es para traer los twitts de Bruno...";
     }
 }
